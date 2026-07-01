@@ -1,2 +1,3 @@
 # Programming I
-Programming I の成果物提出用のリポジトリです。 
+Programming I の成果物提出用のリポジトリです。
+例 2.1 整数を使った計算 ([問題1](chap02/q2_1_1.py)、[問題2](chap02/q2_1_2.py) 
