@@ -26,3 +26,10 @@ def generate_students_data(num_students=10):
 students_data = generate_students_data(10)
 
 print(students_data)
+
+students_by_height = sorted(students_data, key=lambda s: s[1])
+students_by_height = sorted(students_data, key=lambda s: s[2])
+
+print('\nSort by height')
+for student in students_by_height:
+    print(student)
