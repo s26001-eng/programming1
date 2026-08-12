@@ -33,3 +33,29 @@ format(n, w, h, ang))
 # インスタンスを作って実行
 r1 = Rectangle(4, 3)
 r1.show_attributes()
+
+
+class Square(Rectangle):
+    '''正方形'''
+
+    def __init__(self, width):
+        super().__init__(width, width)
+        self.name = 'square'
+
+# インスタンスを作って実行
+s1 = Square(4)
+s1.show_attributes()
+
+class Square(Rectangle):
+    '''正方形'''
+
+    def __init__(self, width):
+        self.name = 'square'
+        self.width = width
+        self.height = width
+        self.perimeter = self.calc_perimeter()
+        self.area = self.calc_area()
+
+# インスタンスを作って実行
+s2 = Square(4)
+s2.show_attributes()
